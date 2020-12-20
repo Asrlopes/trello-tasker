@@ -1,7 +1,13 @@
-/* This file is for your main application css. */
+$bg-color: #fff;
+
+@import "global";
+
+
 @import "../node_modules/nprogress/nprogress.css";
 
+
 /* LiveView specific classes for your customizations */
+
 // .phx-no-feedback.invalid-feedback,
 // .phx-no-feedback .invalid-feedback {
 //   display: none;
