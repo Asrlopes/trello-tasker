@@ -1,7 +1,7 @@
 import Config
 
 database_url =
-  System.get_env("DATABASE_URL") ||
+  System.get_env("ecto://45b0f47d-d43e-46ee-9e3f-2cb8cd003898-user:pw-aa311bb4-9556-44f2-b90f-0a2b925b98a2@postgres-free-tier-v2020.gigalixir.com:5432/45b0f47d-d43e-46ee-9e3f-2cb8cd003898") ||
     raise """
     environment variable DATABASE_URL is missing.
     For example: ecto://USER:PASS@HOST/DATABASE
