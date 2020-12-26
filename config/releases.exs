@@ -28,4 +28,4 @@ config :trello_tasker, TrelloTaskerWeb.Endpoint,
   check_origin: false
 
 
-    config :trello_tasker, TrelloTaskerWeb.Endpoint, server: true
+config :trello_tasker, TrelloTaskerWeb.Endpoint, server: true
